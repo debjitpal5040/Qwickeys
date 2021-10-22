@@ -1,11 +1,14 @@
-body {background: black;}
+html{
+	background-image: radial-gradient(70% 50% ellipse at center top, #000080 0%, #191970 100%);
+    background-attachment: fixed;
+}
 h1{
 	color: blanchedalmond;
 	text-align: center;
     font-size: calc(1.75em + 1vmin);
 }
 #keyboard {
-	margin: 100px auto;
+	margin: 120px auto;
 	width: 812px;
 	height: 319px;
 	background: #708090 url('') repeat-x;
