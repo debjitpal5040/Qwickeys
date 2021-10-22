@@ -1,6 +1,11 @@
 body {background: black;}
+h1{
+	color: blanchedalmond;
+	text-align: center;
+    font-size: calc(1.75em + 1vmin);
+}
 #keyboard {
-	margin: 150px auto;
+	margin: 100px auto;
 	width: 812px;
 	height: 319px;
 	background: #708090 url('') repeat-x;
