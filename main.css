@@ -42,7 +42,6 @@ body {
     0 1px 0 #333,
     0 2px 2px rgb(66, 65, 65);
     text-shadow: 0 -1px 0 black;
-
 }
 .touch {
     width: 29px;
@@ -64,7 +63,7 @@ ol {
 color: rgb(158, 150, 150);
 background-color: #222;
 box-shadow: 0 1px 1px rgb(66, 65, 65);
-margin: 7px 4.5px 5px;    
+margin: 7px 4.5px 5px 0;    
 }
 .fn {
     height: 26px;
@@ -73,17 +72,16 @@ margin: 7px 4.5px 5px;
     padding-top: 5px;
 }
 .two span {
-    margin: 0px 0px;
-    padding: 1px 0 15px 0;
+    text-align: center;
 	display: block;
 }
 .two b {
-	margin: -8px 0 2px;
+    text-align: center;
+	margin: -8px 0 3px 0;
 	display: block;
 }
 #esc {   
-    padding-top: 5px;
-    padding-left: 8px;
+    padding: 5px 0 0 8px;
     text-align: left;
 }
 #tab {
@@ -157,7 +155,7 @@ margin: 7px 4.5px 5px;
 }
 .optionleft b {
     text-align: right;
-    margin: -25px 3px 9px;
+    margin: -25px 3px 9px 0;
     display: block;
 }
 .optionright{
@@ -170,7 +168,7 @@ margin: 7px 4.5px 5px;
 }
 .optionright b {
     text-align: left;
-    margin: -25px 0 9px;
+    margin: -25px 0 9px 0;
     display: block;
 }
 /* command keys */
@@ -180,12 +178,11 @@ margin: 7px 4.5px 5px;
 }
 .commandleft span {
     text-align: center;
-    padding: 1px 0 15px 0;
 	display: block;
 }
 .commandleft b {
     text-align: right;
-    margin: -25px 3px 9px;
+    margin: -25px 3px 9px 0;
     display: block;
 }
 .commandright {
@@ -194,12 +191,11 @@ margin: 7px 4.5px 5px;
 }
 .commandright span {
     text-align: center;
-    padding: 1px 0 15px 0;
 	display: block;
 }
 .commandright b {
     text-align: left;
-    margin: -25px 0 9px;
+    margin: -25px 0 9px 0;
     display: block;
 }
 /* arrow keys */
