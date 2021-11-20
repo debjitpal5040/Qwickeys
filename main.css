@@ -50,7 +50,7 @@ ul{
     padding: 15px 2px 5px 2px;
 }
 li{
-   float: left;
+    float: left;
 }
 .key:active{
 color: rgb(158, 150, 150);
