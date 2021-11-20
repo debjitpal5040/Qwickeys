@@ -1,2 +1,2 @@
 # Qwickeys
-A virtual keyboard model created by HTML and CSS.
+A virtual Macintosh keyboard model created by HTML and CSS.
