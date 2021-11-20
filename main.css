@@ -92,13 +92,13 @@ margin: 7px 4.5px 5px;
 }
 .shiftright{
     width: 115px;
-    text-align: end;
+    text-align: right;
     padding-top: 22px;
     padding-right: 10px;
 }
 
 #caps{
-    width: 90px;
+    width: 88px;
     text-align: left;
     padding: 20px 0 5px 8px;
 }
@@ -111,8 +111,8 @@ margin: 7px 4.5px 5px;
 }
 
 #enter{
-    width: 85px;
-    text-align: end;
+    width: 88px;
+    text-align: right;
     padding: 22px 8px 0 0;
 }
 
