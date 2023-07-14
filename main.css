@@ -1,15 +1,18 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
 h1 {
     text-align: center;
-    color:greenyellow;
+    color: greenyellow;
 }
+
 body {
     background-color: rgb(63, 63, 63);
     box-sizing: border-box;
     background: radial-gradient(circle, red 0%, blue 110%);
 }
+
 #keyboard {
     height: 350px;
     width: 815px;
@@ -20,10 +23,11 @@ body {
     border-top-left-radius: 8px 10px;
     border-top-right-radius: 8px 10px;
     box-shadow: inset 0 0 8px rgb(185, 180, 180),
-    0 2px 0 rgb(161, 156, 156),
-    0 2px 0 2px #bbb,
-    2px 2px 2px 2px rgb(185, 180, 180);
+        0 2px 0 rgb(161, 156, 156),
+        0 2px 0 2px #bbb,
+        2px 2px 2px 2px rgb(185, 180, 180);
 }
+
 .key {
     box-sizing: border-box;
     display: block;
@@ -34,171 +38,205 @@ body {
     border-top: 1px solid#222;
     text-decoration: none;
     text-align: center;
-    font:  bold 8.5pt arial;
+    font: bold 8.5pt arial;
     color: #bbb;
     margin: 6px 4.5px;
     padding-top: 14px;
     box-shadow: inset 0 0 8px rgb(66, 65, 65),
-    0 1px 0 #222,
-    0 1px 0 #333,
-    0 2px 2px rgb(66, 65, 65);
+        0 1px 0 #222,
+        0 1px 0 #333,
+        0 2px 2px rgb(66, 65, 65);
     text-shadow: 0 -1px 0 black;
 }
+
 .touch {
     width: 29px;
     height: 26px;
 }
+
 ul {
     list-style-type: none;
     width: 800px;
     margin: 0 auto;
     padding: 15px 2px 5px 2px;
 }
+
 li {
     float: left;
 }
+
 ol {
     list-style-type: none;
 }
+
 .key:active {
-color: rgb(158, 150, 150);
-background-color: #222;
-box-shadow: 0 1px 1px rgb(66, 65, 65);
-margin: 7px 4.5px 3px;    
+    color: rgb(158, 150, 150);
+    background-color: #222;
+    box-shadow: 0 1px 1px rgb(66, 65, 65);
+    margin: 7px 4.5px 3px;
 }
+
 .fn {
     height: 26px;
     width: 49.5px;
     text-align: center;
     padding-top: 5px;
 }
+
 .two span {
     text-align: center;
-	display: block;
+    display: block;
 }
+
 .two b {
     text-align: center;
-	margin: -8px 0 3px 0;
-	display: block;
+    margin: -8px 0 3px 0;
+    display: block;
 }
-#esc {   
+
+#esc {
     padding: 5px 0 0 8px;
     text-align: left;
 }
+
 #tab {
     width: 75px;
     padding: 22px 0 0 8px;
     text-align: left;
 }
+
 #caps {
     width: 88px;
     text-align: left;
     padding: 22px 0 0 8px;
 }
+
 #delete {
     width: 75px;
     text-align: right;
-    padding: 22px 8px 0 0;   
+    padding: 22px 8px 0 0;
 }
+
 #return {
     width: 88px;
     text-align: right;
     padding: 22px 8px 0 0;
 }
+
 #function {
     height: 45px;
     width: 45px;
-    text-align:left;
+    text-align: left;
     padding: 22px 0 0 8px;
 }
+
 #spacebar {
     height: 45px;
     width: 267px;
 }
+
 /* shift keys */
 .shiftleft {
     width: 116px;
     text-align: left;
     padding: 22px 0 0 8px;
 }
+
 .shiftright {
     width: 116px;
     text-align: right;
     padding: 22px 8px 0 0;
 }
-.lastRow{
+
+.lastRow {
     height: 50px;
     padding: 30px 2px 2px 5px;
     text-align: left;
 }
+
 /* control key */
 .control {
     height: 45px;
     width: 46px;
 }
+
 .control span {
     text-align: center;
-	display: block;
+    display: block;
 }
+
 .control b {
     text-align: right;
     margin: -25px 3px 9px;
     display: block;
 }
+
 /* option keys */
-.optionleft{
+.optionleft {
     height: 45px;
     width: 46px;
 }
+
 .optionleft span {
     text-align: center;
-	display: block;
+    display: block;
 }
+
 .optionleft b {
     text-align: right;
     margin: -25px 3px 9px 0;
     display: block;
 }
-.optionright{
+
+.optionright {
     height: 45px;
     width: 46px;
 }
+
 .optionright span {
     text-align: center;
-	display: block;
+    display: block;
 }
+
 .optionright b {
     text-align: left;
     margin: -25px 0 9px 0;
     display: block;
 }
+
 /* command keys */
 .commandleft {
     height: 45px;
     width: 61px;
 }
+
 .commandleft span {
     text-align: center;
-	display: block;
+    display: block;
 }
+
 .commandleft b {
     text-align: right;
     margin: -25px 3px 9px 0;
     display: block;
 }
+
 .commandright {
     height: 45px;
     width: 61px;
 }
+
 .commandright span {
     text-align: center;
-	display: block;
+    display: block;
 }
+
 .commandright b {
     text-align: left;
     margin: -25px 0 9px 0;
     display: block;
 }
+
 /* arrow keys */
 .arrow {
     height: 19px;
@@ -206,24 +244,28 @@ margin: 7px 4.5px 3px;
     text-align: center;
     padding: 1px;
 }
+
 #left {
     margin-top: 31px;
     padding: 3px 0 0 0;
     text-align: center;
     font-size: xx-small;
 }
+
 #right {
     margin-top: 31px;
     padding: 3px 0 0 0;
     text-align: center;
     font-size: xx-small;
 }
+
 #up {
     margin-top: 6px;
     padding: 2px 0 0 0;
     text-align: center;
     font-size: xx-small;
 }
+
 #down {
     margin-top: 6px;
     padding: 4px 0 0 0;
